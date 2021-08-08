@@ -1,0 +1,1189 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1942105C3D6E376F6F51E7CD9263392E /* alarmFilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5A739E576DE3DAE99EF18FE005F32F1 /* alarmFilled@2x.png */; };
+		1FB9CBC8B3D055B81AF0C6DEB405DE1D /* CDAlertHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA888C35AF08563E81FFCD126F2CBCEE /* CDAlertHeaderView.swift */; };
+		236F8EC0D4F472A8C098B0842A164ADE /* CDAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D9F7601AF35593A523EB3A67B344B5 /* CDAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29DF258A4668F4BB84B076B41AD2F79C /* alarmOutline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 488AA25EE9218CB2A40594A4BC6105F1 /* alarmOutline@2x.png */; };
+		2AE0F5FCF6B1C01AD1779CC059FFBAB3 /* warningFilled@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBD2EF08A91E0D8474FDFE5400B25242 /* warningFilled@3x.png */; };
+		314EDFF4BC955DA79BED177F540BB257 /* notificationFilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2FD376BB79A7669E00260A533583C4F /* notificationFilled@2x.png */; };
+		37CCE406D299AE340CB69CB271E10717 /* PKHUDAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A58908EEC563B6F6FA89B93CBCEBF6 /* PKHUDAnimating.swift */; };
+		3BEA10942D19902EB8F3430AD2868DDE /* warningOutline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1B2272F1775F64BBA276795D2C47CFF /* warningOutline@3x.png */; };
+		4230F0147375BFEBCEAE1D2B2B274CDE /* CDAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08090289DBAD1E7C50FE04D55D8DD3C /* CDAlertView.swift */; };
+		428300FBF83D0BE5C3D7103F625FBD1D /* warningOutline@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = C887D92992608A688E6F1115313B82B7 /* warningOutline@1x.png */; };
+		442C183E3045A0CD9819448C1D9F83DE /* PKHUDWideBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E742850FA788408E8C0DF87E25AED3 /* PKHUDWideBaseView.swift */; };
+		4458D4831EFF5B430517A417824B97C8 /* WindowRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA1463D131C0D2D5227F2769BBE96FD /* WindowRootViewController.swift */; };
+		45542C27375C57968CC49F08592582B4 /* error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 423DF5881F9A83CF0ADD98399BCE32C1 /* error@3x.png */; };
+		45C06268B8C6970A182E5C1339FEDD78 /* PKHUDAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ECBF764C84121EBF660EFBEC5BF169 /* PKHUDAnimation.swift */; };
+		46C27C640F1CDE8FD1324955F718C09F /* alarmFilled@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE3821B1BC2B4597A0F74E688EABFF6 /* alarmFilled@1x.png */; };
+		4860DECE333B6A4F1456BBF70086683B /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD0DCD0EBE5ED06F9F3AEB03A52FCAF /* HUD.swift */; };
+		4871F58BB0E1E2B7587B51A16630EB27 /* warningFilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AC6A6F1FDD93521D10B5E32AA4FE1A0 /* warningFilled@2x.png */; };
+		4FCB352472E7F19B3BDCE6AC2113F68D /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C2107E9FC0351EE750F0D8C63A7152 /* Window.swift */; };
+		53233B7B1F65A8E31D1B0922F7F78AA1 /* CDAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C30548A93A9786B815FFE80083DC4402 /* CDAlertView-dummy.m */; };
+		54BA105595202A6236A6CADDF3CD1DEE /* warningFilled@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D8F0716B7E2CEE7CA646E1CFC81F910 /* warningFilled@1x.png */; };
+		599B64CC1B107A9E7487EC5D14765420 /* check@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CABB1E1C8ED11BE8AA096F6DAA2AB55E /* check@1x.png */; };
+		6290B3533672BEF1578EAEE27FE14983 /* alarmOutline@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D575C003B8074228955BB1E42A06D7A /* alarmOutline@1x.png */; };
+		69827344A91B2B9BD4A746E0282AF5A9 /* Pods-helooLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C318EFFB0A23BFA5AFA02422D04F3169 /* Pods-helooLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A990568A1CEBF0E6CC5AA99BB4BBAA1 /* PKHUDResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BFCB2D5C605270A32522299AED3B5AE6 /* PKHUDResources.bundle */; };
+		6B08E2997515C120B026AC796EE39A68 /* check@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A26E9E47CE6C1A16AE8619F63A8A5A04 /* check@3x.png */; };
+		6FA43D030B219F458A44D30B4130E38B /* PKHUDAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801A1EF41FC86A6B5A5BCBDD121ED08 /* PKHUDAssets.swift */; };
+		6FE50D5E056EC4CBEEF355EF08AA1379 /* PKHUDTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7405131CA1715D9CF015D17F18AB848D /* PKHUDTextView.swift */; };
+		702DE1CBD2D4A4CF3CFE4598C0DA499D /* PKHUDProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0B65E57AE6AE650C5D6A7AB1B28656 /* PKHUDProgressView.swift */; };
+		7153031DE500788220C79F6BB6CF4718 /* PKHUDSquareBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8D24CE85C62B3C18631C70FCACC073 /* PKHUDSquareBaseView.swift */; };
+		76B1760A2E567D3C696AD70A0F750471 /* notificationFilled@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 021EAD06C806149A55E5DB99C36B6001 /* notificationFilled@1x.png */; };
+		7D5197BAE879A2FAF6AD9E23444C39B2 /* Pods-helooLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A60713257A0E374D84A47F77515487D5 /* Pods-helooLib-dummy.m */; };
+		7DA4E83D588E8F11432A4CAA1A4623D0 /* LayoutConstraintsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED27D1617B8713768C48911A5ABD709 /* LayoutConstraintsExtension.swift */; };
+		7FA5EA7A6B4376FD556493FC4B45CA83 /* PKHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C912C65905D6596B30F03DF7957C01BE /* PKHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86F6702E2A57E938C288BC92AAF84502 /* notificationOutline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D8125AF122DB1070449A29C09972498 /* notificationOutline@3x.png */; };
+		8BF45A41937C28F9FF51F29931B4AADF /* PKHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3E14D7555561E908C146CCAEF9642 /* PKHUD-dummy.m */; };
+		8F1F5CCA3FC3594AE5413E1989AFF0AA /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A154CF75DC55CDE7AD8CCDA0FBE6DBC4 /* ImageHelper.swift */; };
+		9522BA054AFB26DE96638D2349A2DD12 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6DA9BB3BEC0EB60D14F066B06629B61 /* check@2x.png */; };
+		9922BF4E68739865622CA37260AADF53 /* CDAlertViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6C306C7DBE12CBE62FC57B07C68266 /* CDAlertViewType.swift */; };
+		A0DE8C532021965536D05A11B78F83A8 /* alarmOutline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E9DAFA53327103D03614629C75CB195 /* alarmOutline@3x.png */; };
+		A13D62BAA90F2E880E7CBDDB8CC2D923 /* notificationFilled@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF28E99A0AB6E3F847FE68014E718648 /* notificationFilled@3x.png */; };
+		A4463D7EF77B24E5FD9B602D21AD0581 /* warningOutline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 044F2E895692E0989E3B42D31EE944F2 /* warningOutline@2x.png */; };
+		AAC4A96F96AFCF327BA3F2E47104C37C /* PKHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = A79382FCFDADB3FC14684FA482E6F321 /* PKHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B41DDBE6556BC6F7411F22024B4A1BCB /* PKHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7514AF097C7F15518F61070D8255165 /* PKHUD.swift */; };
+		C24C295F829E93D95A0D187800DE9178 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		C445335031CABCF234C80CED2939B8B8 /* PKHUDErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7021A640FA285B651A8FBA64605B5D /* PKHUDErrorView.swift */; };
+		C67FEADA8378EEE41809420D9F6F696E /* PKHUDRotatingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132CA0AAE02972C1B457D5534A9C8C5A /* PKHUDRotatingImageView.swift */; };
+		C9D65B4F291C1AF210A7B58194F8B06E /* PKHUDSystemActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592252AE304544E03677923D5436B3B3 /* PKHUDSystemActivityIndicatorView.swift */; };
+		CA50B00222610BDFDF310B2DF8DCB5E4 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B14B6EBA43CAC87C84991B739B3071 /* FrameView.swift */; };
+		CAB4504CFCDA7D58AE257EA55E4B7DD7 /* notificationOutline@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF08373BD9FED7CD39B5BDE7F1B1D397 /* notificationOutline@1x.png */; };
+		CBF95D6C478D761BEA3E99305552EB6F /* CDAlertView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E417FD65D5A1F9B3171583531D47A61C /* CDAlertView.bundle */; };
+		D7DA3025D43D580030BA226B08196D7D /* error@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31738E4686EC3810045EAFD56DFCBB93 /* error@1x.png */; };
+		D8A385D8E54740948AE8C7AC4C385C4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F909C34BC8C48688BACAAF051F09E8 /* Images.xcassets */; };
+		DA856A17F9ABABAEF2F2166AA707E0D9 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 510590A46731DCF3D394F2CAE62468BE /* error@2x.png */; };
+		E02AEC6F86F07F09DCD5AA0DC7936AFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		E44A499C0DA89D2F5BC7F89D53EF779A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		EE9B099680DBD6DA8BAC24E580D62C0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		F6CB196C6C4ADAADA4F7594B43644BA1 /* PKHUDSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7E0F857FA6C27A3E99878C54FFA298 /* PKHUDSuccessView.swift */; };
+		FA42E5AF23CF5D0B7FF4BB2E8754244C /* alarmFilled@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3419C68671B72C9DFEF6A6E9EEE5E34F /* alarmFilled@3x.png */; };
+		FB27A1CD15BC369E185171781639E240 /* notificationOutline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A8D7C8B5A0F4F2B724603DCC299A200 /* notificationOutline@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B4202D6FAD0FCE8461993AC3F0A38BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7F7332F1050B42A501616421AC869EB;
+			remoteInfo = "PKHUD-PKHUDResources";
+		};
+		8FB422E168EDC7087D3280162C68DCC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 364873017BA37260EF589D44B6B73D21;
+			remoteInfo = PKHUD;
+		};
+		9AF6DE43D19F9030111895ACA9C11A92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99AC7779AA0E07D337CFA388DF690218;
+			remoteInfo = CDAlertView;
+		};
+		DE3DD35785D07789D3D86C0D2927CB26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F08944E713B18D3C01A791D5A3614D1F;
+			remoteInfo = "CDAlertView-CDAlertView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011E8BE5C357B4C53CF007B6DA17ED58 /* Pods-helooLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-helooLib-Info.plist"; sourceTree = "<group>"; };
+		01ECBF764C84121EBF660EFBEC5BF169 /* PKHUDAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAnimation.swift; path = PKHUD/PKHUDAnimation.swift; sourceTree = "<group>"; };
+		021EAD06C806149A55E5DB99C36B6001 /* notificationFilled@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationFilled@1x.png"; path = "CDAlertView/Resources/Assets/notificationFilled@1x.png"; sourceTree = "<group>"; };
+		044F2E895692E0989E3B42D31EE944F2 /* warningOutline@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningOutline@2x.png"; path = "CDAlertView/Resources/Assets/warningOutline@2x.png"; sourceTree = "<group>"; };
+		04D9F7601AF35593A523EB3A67B344B5 /* CDAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDAlertView-umbrella.h"; sourceTree = "<group>"; };
+		05A2656F46E8CA87E77A035911B33D10 /* PKHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PKHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC6A6F1FDD93521D10B5E32AA4FE1A0 /* warningFilled@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningFilled@2x.png"; path = "CDAlertView/Resources/Assets/warningFilled@2x.png"; sourceTree = "<group>"; };
+		132CA0AAE02972C1B457D5534A9C8C5A /* PKHUDRotatingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDRotatingImageView.swift; path = PKHUD/PKHUDRotatingImageView.swift; sourceTree = "<group>"; };
+		1521EE1DD16BB986F108FF5E63B437B5 /* CDAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CDAlertView.debug.xcconfig; sourceTree = "<group>"; };
+		1DE3E14D7555561E908C146CCAEF9642 /* PKHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PKHUD-dummy.m"; sourceTree = "<group>"; };
+		200592EE038065DFD8E9877213AE7FCD /* CDAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDAlertView-prefix.pch"; sourceTree = "<group>"; };
+		22B14B6EBA43CAC87C84991B739B3071 /* FrameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameView.swift; path = PKHUD/FrameView.swift; sourceTree = "<group>"; };
+		29F909C34BC8C48688BACAAF051F09E8 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PKHUD/Images.xcassets; sourceTree = "<group>"; };
+		31738E4686EC3810045EAFD56DFCBB93 /* error@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@1x.png"; path = "CDAlertView/Resources/Assets/error@1x.png"; sourceTree = "<group>"; };
+		32C72598013D287CCC601780F508BF6A /* Pods-helooLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-helooLib.modulemap"; sourceTree = "<group>"; };
+		32E742850FA788408E8C0DF87E25AED3 /* PKHUDWideBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDWideBaseView.swift; path = PKHUD/PKHUDWideBaseView.swift; sourceTree = "<group>"; };
+		3419C68671B72C9DFEF6A6E9EEE5E34F /* alarmFilled@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmFilled@3x.png"; path = "CDAlertView/Resources/Assets/alarmFilled@3x.png"; sourceTree = "<group>"; };
+		3D575C003B8074228955BB1E42A06D7A /* alarmOutline@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmOutline@1x.png"; path = "CDAlertView/Resources/Assets/alarmOutline@1x.png"; sourceTree = "<group>"; };
+		3D8125AF122DB1070449A29C09972498 /* notificationOutline@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationOutline@3x.png"; path = "CDAlertView/Resources/Assets/notificationOutline@3x.png"; sourceTree = "<group>"; };
+		3DA69307B2C0A45D05683E3F066E4561 /* CDAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CDAlertView.release.xcconfig; sourceTree = "<group>"; };
+		3DD0DCD0EBE5ED06F9F3AEB03A52FCAF /* HUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUD.swift; path = PKHUD/HUD.swift; sourceTree = "<group>"; };
+		3ED27D1617B8713768C48911A5ABD709 /* LayoutConstraintsExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintsExtension.swift; path = CDAlertView/Classes/LayoutConstraintsExtension.swift; sourceTree = "<group>"; };
+		423DF5881F9A83CF0ADD98399BCE32C1 /* error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@3x.png"; path = "CDAlertView/Resources/Assets/error@3x.png"; sourceTree = "<group>"; };
+		488AA25EE9218CB2A40594A4BC6105F1 /* alarmOutline@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmOutline@2x.png"; path = "CDAlertView/Resources/Assets/alarmOutline@2x.png"; sourceTree = "<group>"; };
+		48A58908EEC563B6F6FA89B93CBCEBF6 /* PKHUDAnimating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAnimating.swift; path = PKHUD/PKHUDAnimating.swift; sourceTree = "<group>"; };
+		497444E3780E44ED4F4672834DCE1ED8 /* CDAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CDAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B78B263D7D4B6D27DBB44D942998C24 /* PKHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PKHUD.modulemap; sourceTree = "<group>"; };
+		509187731258B554BF5CDA20A086EFE8 /* CDAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CDAlertView.modulemap; sourceTree = "<group>"; };
+		510590A46731DCF3D394F2CAE62468BE /* error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@2x.png"; path = "CDAlertView/Resources/Assets/error@2x.png"; sourceTree = "<group>"; };
+		53C2107E9FC0351EE750F0D8C63A7152 /* Window.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Window.swift; path = PKHUD/Window.swift; sourceTree = "<group>"; };
+		592252AE304544E03677923D5436B3B3 /* PKHUDSystemActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSystemActivityIndicatorView.swift; path = PKHUD/PKHUDSystemActivityIndicatorView.swift; sourceTree = "<group>"; };
+		5A8D7C8B5A0F4F2B724603DCC299A200 /* notificationOutline@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationOutline@2x.png"; path = "CDAlertView/Resources/Assets/notificationOutline@2x.png"; sourceTree = "<group>"; };
+		5B5D2D4BE9C85D243E8CB131333E13CF /* Pods-helooLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-helooLib.debug.xcconfig"; sourceTree = "<group>"; };
+		5B6C306C7DBE12CBE62FC57B07C68266 /* CDAlertViewType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CDAlertViewType.swift; path = CDAlertView/Classes/CDAlertViewType.swift; sourceTree = "<group>"; };
+		5D8F0716B7E2CEE7CA646E1CFC81F910 /* warningFilled@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningFilled@1x.png"; path = "CDAlertView/Resources/Assets/warningFilled@1x.png"; sourceTree = "<group>"; };
+		5E9DAFA53327103D03614629C75CB195 /* alarmOutline@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmOutline@3x.png"; path = "CDAlertView/Resources/Assets/alarmOutline@3x.png"; sourceTree = "<group>"; };
+		659BF26AA31C4C4D974DB51E5B484678 /* Pods-helooLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-helooLib.release.xcconfig"; sourceTree = "<group>"; };
+		6E7E0F857FA6C27A3E99878C54FFA298 /* PKHUDSuccessView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSuccessView.swift; path = PKHUD/PKHUDSuccessView.swift; sourceTree = "<group>"; };
+		7405131CA1715D9CF015D17F18AB848D /* PKHUDTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDTextView.swift; path = PKHUD/PKHUDTextView.swift; sourceTree = "<group>"; };
+		759BBE3C462E38F1EC9A40D78B3CD752 /* PKHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PKHUD.release.xcconfig; sourceTree = "<group>"; };
+		7801A1EF41FC86A6B5A5BCBDD121ED08 /* PKHUDAssets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAssets.swift; path = PKHUD/PKHUDAssets.swift; sourceTree = "<group>"; };
+		7BA1463D131C0D2D5227F2769BBE96FD /* WindowRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowRootViewController.swift; path = PKHUD/WindowRootViewController.swift; sourceTree = "<group>"; };
+		8A8D24CE85C62B3C18631C70FCACC073 /* PKHUDSquareBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSquareBaseView.swift; path = PKHUD/PKHUDSquareBaseView.swift; sourceTree = "<group>"; };
+		9639B7E99570A03402617F2FD3FC2DA3 /* Pods-helooLib-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-helooLib-acknowledgements.markdown"; sourceTree = "<group>"; };
+		966E94E3275E9473AA38FBA5D50A5950 /* CDAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CDAlertView-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A121107A36B80247B9FF930EEE31A629 /* Pods-helooLib-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-helooLib-acknowledgements.plist"; sourceTree = "<group>"; };
+		A154CF75DC55CDE7AD8CCDA0FBE6DBC4 /* ImageHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageHelper.swift; path = CDAlertView/Classes/ImageHelper.swift; sourceTree = "<group>"; };
+		A26E9E47CE6C1A16AE8619F63A8A5A04 /* check@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "check@3x.png"; path = "CDAlertView/Resources/Assets/check@3x.png"; sourceTree = "<group>"; };
+		A60713257A0E374D84A47F77515487D5 /* Pods-helooLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-helooLib-dummy.m"; sourceTree = "<group>"; };
+		A79382FCFDADB3FC14684FA482E6F321 /* PKHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PKHUD.h; path = PKHUD/PKHUD.h; sourceTree = "<group>"; };
+		B63EB61FC79A7C3C751A5935E59028CF /* ResourceBundle-CDAlertView-CDAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CDAlertView-CDAlertView-Info.plist"; sourceTree = "<group>"; };
+		B7514AF097C7F15518F61070D8255165 /* PKHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUD.swift; path = PKHUD/PKHUD.swift; sourceTree = "<group>"; };
+		BBD2EF08A91E0D8474FDFE5400B25242 /* warningFilled@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningFilled@3x.png"; path = "CDAlertView/Resources/Assets/warningFilled@3x.png"; sourceTree = "<group>"; };
+		BF2458561C859FFA7FF34DD16AF8C2FD /* PKHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PKHUD.debug.xcconfig; sourceTree = "<group>"; };
+		BFCB2D5C605270A32522299AED3B5AE6 /* PKHUDResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PKHUDResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E053F701593E6D24C5B9A51B9399AE /* Pods-helooLib-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-helooLib-frameworks.sh"; sourceTree = "<group>"; };
+		C30548A93A9786B815FFE80083DC4402 /* CDAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDAlertView-dummy.m"; sourceTree = "<group>"; };
+		C318EFFB0A23BFA5AFA02422D04F3169 /* Pods-helooLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-helooLib-umbrella.h"; sourceTree = "<group>"; };
+		C6DA9BB3BEC0EB60D14F066B06629B61 /* check@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "check@2x.png"; path = "CDAlertView/Resources/Assets/check@2x.png"; sourceTree = "<group>"; };
+		C887D92992608A688E6F1115313B82B7 /* warningOutline@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningOutline@1x.png"; path = "CDAlertView/Resources/Assets/warningOutline@1x.png"; sourceTree = "<group>"; };
+		C90D2C8E1BB6CB884253E7C5D474C308 /* PKHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PKHUD-Info.plist"; sourceTree = "<group>"; };
+		C912C65905D6596B30F03DF7957C01BE /* PKHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHUD-umbrella.h"; sourceTree = "<group>"; };
+		C91E32B441F9CE2B42E1B6E4AC89E2C7 /* PKHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHUD-prefix.pch"; sourceTree = "<group>"; };
+		CA7021A640FA285B651A8FBA64605B5D /* PKHUDErrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDErrorView.swift; path = PKHUD/PKHUDErrorView.swift; sourceTree = "<group>"; };
+		CABB1E1C8ED11BE8AA096F6DAA2AB55E /* check@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "check@1x.png"; path = "CDAlertView/Resources/Assets/check@1x.png"; sourceTree = "<group>"; };
+		CD0B65E57AE6AE650C5D6A7AB1B28656 /* PKHUDProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDProgressView.swift; path = PKHUD/PKHUDProgressView.swift; sourceTree = "<group>"; };
+		D08090289DBAD1E7C50FE04D55D8DD3C /* CDAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CDAlertView.swift; path = CDAlertView/Classes/CDAlertView.swift; sourceTree = "<group>"; };
+		D1B2272F1775F64BBA276795D2C47CFF /* warningOutline@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningOutline@3x.png"; path = "CDAlertView/Resources/Assets/warningOutline@3x.png"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D5A739E576DE3DAE99EF18FE005F32F1 /* alarmFilled@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmFilled@2x.png"; path = "CDAlertView/Resources/Assets/alarmFilled@2x.png"; sourceTree = "<group>"; };
+		DBE3821B1BC2B4597A0F74E688EABFF6 /* alarmFilled@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmFilled@1x.png"; path = "CDAlertView/Resources/Assets/alarmFilled@1x.png"; sourceTree = "<group>"; };
+		DF08373BD9FED7CD39B5BDE7F1B1D397 /* notificationOutline@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationOutline@1x.png"; path = "CDAlertView/Resources/Assets/notificationOutline@1x.png"; sourceTree = "<group>"; };
+		DF28E99A0AB6E3F847FE68014E718648 /* notificationFilled@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationFilled@3x.png"; path = "CDAlertView/Resources/Assets/notificationFilled@3x.png"; sourceTree = "<group>"; };
+		DFC211DB5E887AC518B874F5F6128F4D /* ResourceBundle-PKHUDResources-PKHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PKHUDResources-PKHUD-Info.plist"; sourceTree = "<group>"; };
+		E2F525121CCC05E0172197DC74A70043 /* Pods_helooLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_helooLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FD376BB79A7669E00260A533583C4F /* notificationFilled@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationFilled@2x.png"; path = "CDAlertView/Resources/Assets/notificationFilled@2x.png"; sourceTree = "<group>"; };
+		E417FD65D5A1F9B3171583531D47A61C /* CDAlertView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDAlertView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA888C35AF08563E81FFCD126F2CBCEE /* CDAlertHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CDAlertHeaderView.swift; path = CDAlertView/Classes/CDAlertHeaderView.swift; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B774D0B648C5C7E17B63065A7B199C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44A499C0DA89D2F5BC7F89D53EF779A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A875924BCF8F51FEF22102E4C64D9D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02AEC6F86F07F09DCD5AA0DC7936AFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958FB5351B0BB0A56B75554F6B184D17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24C295F829E93D95A0D187800DE9178 /* Foundation.framework in Frameworks */,
+				EE9B099680DBD6DA8BAC24E580D62C0B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C411B739A7051FCF26801B3DE862AA3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0663DEACA0AA2D43CACF40895DAE42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1633DD399D9FBC1BEB3CE691A74592DA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				509187731258B554BF5CDA20A086EFE8 /* CDAlertView.modulemap */,
+				C30548A93A9786B815FFE80083DC4402 /* CDAlertView-dummy.m */,
+				966E94E3275E9473AA38FBA5D50A5950 /* CDAlertView-Info.plist */,
+				200592EE038065DFD8E9877213AE7FCD /* CDAlertView-prefix.pch */,
+				04D9F7601AF35593A523EB3A67B344B5 /* CDAlertView-umbrella.h */,
+				1521EE1DD16BB986F108FF5E63B437B5 /* CDAlertView.debug.xcconfig */,
+				3DA69307B2C0A45D05683E3F066E4561 /* CDAlertView.release.xcconfig */,
+				B63EB61FC79A7C3C751A5935E59028CF /* ResourceBundle-CDAlertView-CDAlertView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CDAlertView";
+			sourceTree = "<group>";
+		};
+		33618A6C0ABCC7E0168F6D1083503393 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29F909C34BC8C48688BACAAF051F09E8 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4134256417AEEA88313643E24FB3DFBE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C18079982D7053FBE30FCCDC8F1ABDBC /* Pods-helooLib */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		58091F12EE73B939BBFBA54A590804E6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B78B263D7D4B6D27DBB44D942998C24 /* PKHUD.modulemap */,
+				1DE3E14D7555561E908C146CCAEF9642 /* PKHUD-dummy.m */,
+				C90D2C8E1BB6CB884253E7C5D474C308 /* PKHUD-Info.plist */,
+				C91E32B441F9CE2B42E1B6E4AC89E2C7 /* PKHUD-prefix.pch */,
+				C912C65905D6596B30F03DF7957C01BE /* PKHUD-umbrella.h */,
+				BF2458561C859FFA7FF34DD16AF8C2FD /* PKHUD.debug.xcconfig */,
+				759BBE3C462E38F1EC9A40D78B3CD752 /* PKHUD.release.xcconfig */,
+				DFC211DB5E887AC518B874F5F6128F4D /* ResourceBundle-PKHUDResources-PKHUD-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PKHUD";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		87FE40F1CB389E4221A84A35D2398F45 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DBE3821B1BC2B4597A0F74E688EABFF6 /* alarmFilled@1x.png */,
+				D5A739E576DE3DAE99EF18FE005F32F1 /* alarmFilled@2x.png */,
+				3419C68671B72C9DFEF6A6E9EEE5E34F /* alarmFilled@3x.png */,
+				3D575C003B8074228955BB1E42A06D7A /* alarmOutline@1x.png */,
+				488AA25EE9218CB2A40594A4BC6105F1 /* alarmOutline@2x.png */,
+				5E9DAFA53327103D03614629C75CB195 /* alarmOutline@3x.png */,
+				CABB1E1C8ED11BE8AA096F6DAA2AB55E /* check@1x.png */,
+				C6DA9BB3BEC0EB60D14F066B06629B61 /* check@2x.png */,
+				A26E9E47CE6C1A16AE8619F63A8A5A04 /* check@3x.png */,
+				31738E4686EC3810045EAFD56DFCBB93 /* error@1x.png */,
+				510590A46731DCF3D394F2CAE62468BE /* error@2x.png */,
+				423DF5881F9A83CF0ADD98399BCE32C1 /* error@3x.png */,
+				021EAD06C806149A55E5DB99C36B6001 /* notificationFilled@1x.png */,
+				E2FD376BB79A7669E00260A533583C4F /* notificationFilled@2x.png */,
+				DF28E99A0AB6E3F847FE68014E718648 /* notificationFilled@3x.png */,
+				DF08373BD9FED7CD39B5BDE7F1B1D397 /* notificationOutline@1x.png */,
+				5A8D7C8B5A0F4F2B724603DCC299A200 /* notificationOutline@2x.png */,
+				3D8125AF122DB1070449A29C09972498 /* notificationOutline@3x.png */,
+				5D8F0716B7E2CEE7CA646E1CFC81F910 /* warningFilled@1x.png */,
+				0AC6A6F1FDD93521D10B5E32AA4FE1A0 /* warningFilled@2x.png */,
+				BBD2EF08A91E0D8474FDFE5400B25242 /* warningFilled@3x.png */,
+				C887D92992608A688E6F1115313B82B7 /* warningOutline@1x.png */,
+				044F2E895692E0989E3B42D31EE944F2 /* warningOutline@2x.png */,
+				D1B2272F1775F64BBA276795D2C47CFF /* warningOutline@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		944FAB7B542B03A513033F456A0587E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB8331438E2E91C8819BD6991DEEEDE0 /* CDAlertView */,
+				A1ADA5F338779074D1297B9D7F48BA24 /* PKHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A257FCFE2F83D3BE403665812ACE56D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E417FD65D5A1F9B3171583531D47A61C /* CDAlertView.bundle */,
+				497444E3780E44ED4F4672834DCE1ED8 /* CDAlertView.framework */,
+				05A2656F46E8CA87E77A035911B33D10 /* PKHUD.framework */,
+				BFCB2D5C605270A32522299AED3B5AE6 /* PKHUDResources.bundle */,
+				E2F525121CCC05E0172197DC74A70043 /* Pods_helooLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1ADA5F338779074D1297B9D7F48BA24 /* PKHUD */ = {
+			isa = PBXGroup;
+			children = (
+				22B14B6EBA43CAC87C84991B739B3071 /* FrameView.swift */,
+				3DD0DCD0EBE5ED06F9F3AEB03A52FCAF /* HUD.swift */,
+				A79382FCFDADB3FC14684FA482E6F321 /* PKHUD.h */,
+				B7514AF097C7F15518F61070D8255165 /* PKHUD.swift */,
+				48A58908EEC563B6F6FA89B93CBCEBF6 /* PKHUDAnimating.swift */,
+				01ECBF764C84121EBF660EFBEC5BF169 /* PKHUDAnimation.swift */,
+				7801A1EF41FC86A6B5A5BCBDD121ED08 /* PKHUDAssets.swift */,
+				CA7021A640FA285B651A8FBA64605B5D /* PKHUDErrorView.swift */,
+				CD0B65E57AE6AE650C5D6A7AB1B28656 /* PKHUDProgressView.swift */,
+				132CA0AAE02972C1B457D5534A9C8C5A /* PKHUDRotatingImageView.swift */,
+				8A8D24CE85C62B3C18631C70FCACC073 /* PKHUDSquareBaseView.swift */,
+				6E7E0F857FA6C27A3E99878C54FFA298 /* PKHUDSuccessView.swift */,
+				592252AE304544E03677923D5436B3B3 /* PKHUDSystemActivityIndicatorView.swift */,
+				7405131CA1715D9CF015D17F18AB848D /* PKHUDTextView.swift */,
+				32E742850FA788408E8C0DF87E25AED3 /* PKHUDWideBaseView.swift */,
+				53C2107E9FC0351EE750F0D8C63A7152 /* Window.swift */,
+				7BA1463D131C0D2D5227F2769BBE96FD /* WindowRootViewController.swift */,
+				33618A6C0ABCC7E0168F6D1083503393 /* Resources */,
+				58091F12EE73B939BBFBA54A590804E6 /* Support Files */,
+			);
+			path = PKHUD;
+			sourceTree = "<group>";
+		};
+		C18079982D7053FBE30FCCDC8F1ABDBC /* Pods-helooLib */ = {
+			isa = PBXGroup;
+			children = (
+				32C72598013D287CCC601780F508BF6A /* Pods-helooLib.modulemap */,
+				9639B7E99570A03402617F2FD3FC2DA3 /* Pods-helooLib-acknowledgements.markdown */,
+				A121107A36B80247B9FF930EEE31A629 /* Pods-helooLib-acknowledgements.plist */,
+				A60713257A0E374D84A47F77515487D5 /* Pods-helooLib-dummy.m */,
+				C0E053F701593E6D24C5B9A51B9399AE /* Pods-helooLib-frameworks.sh */,
+				011E8BE5C357B4C53CF007B6DA17ED58 /* Pods-helooLib-Info.plist */,
+				C318EFFB0A23BFA5AFA02422D04F3169 /* Pods-helooLib-umbrella.h */,
+				5B5D2D4BE9C85D243E8CB131333E13CF /* Pods-helooLib.debug.xcconfig */,
+				659BF26AA31C4C4D974DB51E5B484678 /* Pods-helooLib.release.xcconfig */,
+			);
+			name = "Pods-helooLib";
+			path = "Target Support Files/Pods-helooLib";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				944FAB7B542B03A513033F456A0587E0 /* Pods */,
+				9A257FCFE2F83D3BE403665812ACE56D /* Products */,
+				4134256417AEEA88313643E24FB3DFBE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EB8331438E2E91C8819BD6991DEEEDE0 /* CDAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				EA888C35AF08563E81FFCD126F2CBCEE /* CDAlertHeaderView.swift */,
+				D08090289DBAD1E7C50FE04D55D8DD3C /* CDAlertView.swift */,
+				5B6C306C7DBE12CBE62FC57B07C68266 /* CDAlertViewType.swift */,
+				A154CF75DC55CDE7AD8CCDA0FBE6DBC4 /* ImageHelper.swift */,
+				3ED27D1617B8713768C48911A5ABD709 /* LayoutConstraintsExtension.swift */,
+				87FE40F1CB389E4221A84A35D2398F45 /* Resources */,
+				1633DD399D9FBC1BEB3CE691A74592DA /* Support Files */,
+			);
+			path = CDAlertView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29AD12E8EB1634C6535C96D1E242F234 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236F8EC0D4F472A8C098B0842A164ADE /* CDAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77FE06C24F3D9A30969AF6292046EA64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA5EA7A6B4376FD556493FC4B45CA83 /* PKHUD-umbrella.h in Headers */,
+				AAC4A96F96AFCF327BA3F2E47104C37C /* PKHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807F43424016E15036F4CE317F5CAFCC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69827344A91B2B9BD4A746E0282AF5A9 /* Pods-helooLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		364873017BA37260EF589D44B6B73D21 /* PKHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B0B7FC0B15E409AF42F9E04D7F90FE9 /* Build configuration list for PBXNativeTarget "PKHUD" */;
+			buildPhases = (
+				77FE06C24F3D9A30969AF6292046EA64 /* Headers */,
+				CAA693190E7E902B5A46F8B6A4723E98 /* Sources */,
+				0B774D0B648C5C7E17B63065A7B199C0 /* Frameworks */,
+				4654AD7D19C51A7EF7138982B5AC53B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3951E639CB4963EE3DEA6B0C3F5AD335 /* PBXTargetDependency */,
+			);
+			name = PKHUD;
+			productName = PKHUD;
+			productReference = 05A2656F46E8CA87E77A035911B33D10 /* PKHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D9ABCEDEF60CE13F053226F40C66FF9 /* Pods-helooLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3A252D858A0E7C0A429C3EE855F7C4 /* Build configuration list for PBXNativeTarget "Pods-helooLib" */;
+			buildPhases = (
+				807F43424016E15036F4CE317F5CAFCC /* Headers */,
+				C59ECA42FD87C0F7421ED034E1EDF100 /* Sources */,
+				7A875924BCF8F51FEF22102E4C64D9D5 /* Frameworks */,
+				BB99E23D8D1165AE15211DD83D7BE5ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB0F2D24E62994123FE582B09A256FE1 /* PBXTargetDependency */,
+				EBE7B57CAE9A96445385100FA61D5447 /* PBXTargetDependency */,
+			);
+			name = "Pods-helooLib";
+			productName = "Pods-helooLib";
+			productReference = E2F525121CCC05E0172197DC74A70043 /* Pods_helooLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99AC7779AA0E07D337CFA388DF690218 /* CDAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E9AC33BC2344DA78ABD16CFBD517BCB /* Build configuration list for PBXNativeTarget "CDAlertView" */;
+			buildPhases = (
+				29AD12E8EB1634C6535C96D1E242F234 /* Headers */,
+				CD59C5CDC104102FEDEE6C0C7D2169DD /* Sources */,
+				958FB5351B0BB0A56B75554F6B184D17 /* Frameworks */,
+				614C18B82181EFF061D844FB4347B15A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				174BA0D5B0934448795566615C083E04 /* PBXTargetDependency */,
+			);
+			name = CDAlertView;
+			productName = CDAlertView;
+			productReference = 497444E3780E44ED4F4672834DCE1ED8 /* CDAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7F7332F1050B42A501616421AC869EB /* PKHUD-PKHUDResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0F112C2923A9FAB7640E626F4A8755 /* Build configuration list for PBXNativeTarget "PKHUD-PKHUDResources" */;
+			buildPhases = (
+				83FF7B35D38AC30853A3C64C7D3733D8 /* Sources */,
+				E0663DEACA0AA2D43CACF40895DAE42F /* Frameworks */,
+				B4C04069F8196CFF3BD6D1F805503EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PKHUD-PKHUDResources";
+			productName = "PKHUD-PKHUDResources";
+			productReference = BFCB2D5C605270A32522299AED3B5AE6 /* PKHUDResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F08944E713B18D3C01A791D5A3614D1F /* CDAlertView-CDAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F552EFC155C6EDB2DB2BB90A21656CCA /* Build configuration list for PBXNativeTarget "CDAlertView-CDAlertView" */;
+			buildPhases = (
+				E3C72262CA7E89B4A0BBA047FA79AB62 /* Sources */,
+				C411B739A7051FCF26801B3DE862AA3A /* Frameworks */,
+				D92E21DC9EA11894AEF0E33B369C4085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CDAlertView-CDAlertView";
+			productName = "CDAlertView-CDAlertView";
+			productReference = E417FD65D5A1F9B3171583531D47A61C /* CDAlertView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9A257FCFE2F83D3BE403665812ACE56D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99AC7779AA0E07D337CFA388DF690218 /* CDAlertView */,
+				F08944E713B18D3C01A791D5A3614D1F /* CDAlertView-CDAlertView */,
+				364873017BA37260EF589D44B6B73D21 /* PKHUD */,
+				A7F7332F1050B42A501616421AC869EB /* PKHUD-PKHUDResources */,
+				7D9ABCEDEF60CE13F053226F40C66FF9 /* Pods-helooLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4654AD7D19C51A7EF7138982B5AC53B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A990568A1CEBF0E6CC5AA99BB4BBAA1 /* PKHUDResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614C18B82181EFF061D844FB4347B15A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF95D6C478D761BEA3E99305552EB6F /* CDAlertView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C04069F8196CFF3BD6D1F805503EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A385D8E54740948AE8C7AC4C385C4C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB99E23D8D1165AE15211DD83D7BE5ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92E21DC9EA11894AEF0E33B369C4085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C27C640F1CDE8FD1324955F718C09F /* alarmFilled@1x.png in Resources */,
+				1942105C3D6E376F6F51E7CD9263392E /* alarmFilled@2x.png in Resources */,
+				FA42E5AF23CF5D0B7FF4BB2E8754244C /* alarmFilled@3x.png in Resources */,
+				6290B3533672BEF1578EAEE27FE14983 /* alarmOutline@1x.png in Resources */,
+				29DF258A4668F4BB84B076B41AD2F79C /* alarmOutline@2x.png in Resources */,
+				A0DE8C532021965536D05A11B78F83A8 /* alarmOutline@3x.png in Resources */,
+				599B64CC1B107A9E7487EC5D14765420 /* check@1x.png in Resources */,
+				9522BA054AFB26DE96638D2349A2DD12 /* check@2x.png in Resources */,
+				6B08E2997515C120B026AC796EE39A68 /* check@3x.png in Resources */,
+				D7DA3025D43D580030BA226B08196D7D /* error@1x.png in Resources */,
+				DA856A17F9ABABAEF2F2166AA707E0D9 /* error@2x.png in Resources */,
+				45542C27375C57968CC49F08592582B4 /* error@3x.png in Resources */,
+				76B1760A2E567D3C696AD70A0F750471 /* notificationFilled@1x.png in Resources */,
+				314EDFF4BC955DA79BED177F540BB257 /* notificationFilled@2x.png in Resources */,
+				A13D62BAA90F2E880E7CBDDB8CC2D923 /* notificationFilled@3x.png in Resources */,
+				CAB4504CFCDA7D58AE257EA55E4B7DD7 /* notificationOutline@1x.png in Resources */,
+				FB27A1CD15BC369E185171781639E240 /* notificationOutline@2x.png in Resources */,
+				86F6702E2A57E938C288BC92AAF84502 /* notificationOutline@3x.png in Resources */,
+				54BA105595202A6236A6CADDF3CD1DEE /* warningFilled@1x.png in Resources */,
+				4871F58BB0E1E2B7587B51A16630EB27 /* warningFilled@2x.png in Resources */,
+				2AE0F5FCF6B1C01AD1779CC059FFBAB3 /* warningFilled@3x.png in Resources */,
+				428300FBF83D0BE5C3D7103F625FBD1D /* warningOutline@1x.png in Resources */,
+				A4463D7EF77B24E5FD9B602D21AD0581 /* warningOutline@2x.png in Resources */,
+				3BEA10942D19902EB8F3430AD2868DDE /* warningOutline@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83FF7B35D38AC30853A3C64C7D3733D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59ECA42FD87C0F7421ED034E1EDF100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5197BAE879A2FAF6AD9E23444C39B2 /* Pods-helooLib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA693190E7E902B5A46F8B6A4723E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA50B00222610BDFDF310B2DF8DCB5E4 /* FrameView.swift in Sources */,
+				4860DECE333B6A4F1456BBF70086683B /* HUD.swift in Sources */,
+				8BF45A41937C28F9FF51F29931B4AADF /* PKHUD-dummy.m in Sources */,
+				B41DDBE6556BC6F7411F22024B4A1BCB /* PKHUD.swift in Sources */,
+				37CCE406D299AE340CB69CB271E10717 /* PKHUDAnimating.swift in Sources */,
+				45C06268B8C6970A182E5C1339FEDD78 /* PKHUDAnimation.swift in Sources */,
+				6FA43D030B219F458A44D30B4130E38B /* PKHUDAssets.swift in Sources */,
+				C445335031CABCF234C80CED2939B8B8 /* PKHUDErrorView.swift in Sources */,
+				702DE1CBD2D4A4CF3CFE4598C0DA499D /* PKHUDProgressView.swift in Sources */,
+				C67FEADA8378EEE41809420D9F6F696E /* PKHUDRotatingImageView.swift in Sources */,
+				7153031DE500788220C79F6BB6CF4718 /* PKHUDSquareBaseView.swift in Sources */,
+				F6CB196C6C4ADAADA4F7594B43644BA1 /* PKHUDSuccessView.swift in Sources */,
+				C9D65B4F291C1AF210A7B58194F8B06E /* PKHUDSystemActivityIndicatorView.swift in Sources */,
+				6FE50D5E056EC4CBEEF355EF08AA1379 /* PKHUDTextView.swift in Sources */,
+				442C183E3045A0CD9819448C1D9F83DE /* PKHUDWideBaseView.swift in Sources */,
+				4FCB352472E7F19B3BDCE6AC2113F68D /* Window.swift in Sources */,
+				4458D4831EFF5B430517A417824B97C8 /* WindowRootViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD59C5CDC104102FEDEE6C0C7D2169DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB9CBC8B3D055B81AF0C6DEB405DE1D /* CDAlertHeaderView.swift in Sources */,
+				53233B7B1F65A8E31D1B0922F7F78AA1 /* CDAlertView-dummy.m in Sources */,
+				4230F0147375BFEBCEAE1D2B2B274CDE /* CDAlertView.swift in Sources */,
+				9922BF4E68739865622CA37260AADF53 /* CDAlertViewType.swift in Sources */,
+				8F1F5CCA3FC3594AE5413E1989AFF0AA /* ImageHelper.swift in Sources */,
+				7DA4E83D588E8F11432A4CAA1A4623D0 /* LayoutConstraintsExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C72262CA7E89B4A0BBA047FA79AB62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		174BA0D5B0934448795566615C083E04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CDAlertView-CDAlertView";
+			target = F08944E713B18D3C01A791D5A3614D1F /* CDAlertView-CDAlertView */;
+			targetProxy = DE3DD35785D07789D3D86C0D2927CB26 /* PBXContainerItemProxy */;
+		};
+		3951E639CB4963EE3DEA6B0C3F5AD335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PKHUD-PKHUDResources";
+			target = A7F7332F1050B42A501616421AC869EB /* PKHUD-PKHUDResources */;
+			targetProxy = 0B4202D6FAD0FCE8461993AC3F0A38BE /* PBXContainerItemProxy */;
+		};
+		EB0F2D24E62994123FE582B09A256FE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CDAlertView;
+			target = 99AC7779AA0E07D337CFA388DF690218 /* CDAlertView */;
+			targetProxy = 9AF6DE43D19F9030111895ACA9C11A92 /* PBXContainerItemProxy */;
+		};
+		EBE7B57CAE9A96445385100FA61D5447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PKHUD;
+			target = 364873017BA37260EF589D44B6B73D21 /* PKHUD */;
+			targetProxy = 8FB422E168EDC7087D3280162C68DCC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23B12656BC6CB5997C098F585199EA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B5D2D4BE9C85D243E8CB131333E13CF /* Pods-helooLib.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-helooLib/Pods-helooLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-helooLib/Pods-helooLib.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		264EEEF3137512DFDF34589DB38C82E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF2458561C859FFA7FF34DD16AF8C2FD /* PKHUD.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PKHUD/PKHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PKHUD/PKHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PKHUD/PKHUD.modulemap";
+				PRODUCT_MODULE_NAME = PKHUD;
+				PRODUCT_NAME = PKHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26B6BD49FCA8626A9FB236E5C85E751A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 659BF26AA31C4C4D974DB51E5B484678 /* Pods-helooLib.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-helooLib/Pods-helooLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-helooLib/Pods-helooLib.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6487D1F7BFCC920307DC7E6460EBB4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DA69307B2C0A45D05683E3F066E4561 /* CDAlertView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CDAlertView/CDAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDAlertView/CDAlertView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CDAlertView/CDAlertView.modulemap";
+				PRODUCT_MODULE_NAME = CDAlertView;
+				PRODUCT_NAME = CDAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8968095F78C8F7DF2C0AE575BC4A993A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DA69307B2C0A45D05683E3F066E4561 /* CDAlertView.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CDAlertView";
+				IBSC_MODULE = CDAlertView;
+				INFOPLIST_FILE = "Target Support Files/CDAlertView/ResourceBundle-CDAlertView-CDAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = CDAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		91A154BD3A839953CC45512F97E60F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1521EE1DD16BB986F108FF5E63B437B5 /* CDAlertView.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CDAlertView";
+				IBSC_MODULE = CDAlertView;
+				INFOPLIST_FILE = "Target Support Files/CDAlertView/ResourceBundle-CDAlertView-CDAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = CDAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		96F800F0285D668A1A3AF19555AF46B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF2458561C859FFA7FF34DD16AF8C2FD /* PKHUD.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PKHUD";
+				IBSC_MODULE = PKHUD;
+				INFOPLIST_FILE = "Target Support Files/PKHUD/ResourceBundle-PKHUDResources-PKHUD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = PKHUDResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E8886BE148557B679CA1F8E825F0F735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 759BBE3C462E38F1EC9A40D78B3CD752 /* PKHUD.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PKHUD/PKHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PKHUD/PKHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PKHUD/PKHUD.modulemap";
+				PRODUCT_MODULE_NAME = PKHUD;
+				PRODUCT_NAME = PKHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA1EEE41922EAF356FCDB24D03306DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 759BBE3C462E38F1EC9A40D78B3CD752 /* PKHUD.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PKHUD";
+				IBSC_MODULE = PKHUD;
+				INFOPLIST_FILE = "Target Support Files/PKHUD/ResourceBundle-PKHUDResources-PKHUD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = PKHUDResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		EFE3F5C201D3EA667B8CFF2BBCBF43B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1521EE1DD16BB986F108FF5E63B437B5 /* CDAlertView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CDAlertView/CDAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDAlertView/CDAlertView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CDAlertView/CDAlertView.modulemap";
+				PRODUCT_MODULE_NAME = CDAlertView;
+				PRODUCT_NAME = CDAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B0B7FC0B15E409AF42F9E04D7F90FE9 /* Build configuration list for PBXNativeTarget "PKHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264EEEF3137512DFDF34589DB38C82E9 /* Debug */,
+				E8886BE148557B679CA1F8E825F0F735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E9AC33BC2344DA78ABD16CFBD517BCB /* Build configuration list for PBXNativeTarget "CDAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE3F5C201D3EA667B8CFF2BBCBF43B0 /* Debug */,
+				6487D1F7BFCC920307DC7E6460EBB4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D0F112C2923A9FAB7640E626F4A8755 /* Build configuration list for PBXNativeTarget "PKHUD-PKHUDResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F800F0285D668A1A3AF19555AF46B9 /* Debug */,
+				EA1EEE41922EAF356FCDB24D03306DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3A252D858A0E7C0A429C3EE855F7C4 /* Build configuration list for PBXNativeTarget "Pods-helooLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B12656BC6CB5997C098F585199EA52 /* Debug */,
+				26B6BD49FCA8626A9FB236E5C85E751A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F552EFC155C6EDB2DB2BB90A21656CCA /* Build configuration list for PBXNativeTarget "CDAlertView-CDAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A154BD3A839953CC45512F97E60F5B /* Debug */,
+				8968095F78C8F7DF2C0AE575BC4A993A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
